@@ -1,0 +1,244 @@
+{
+  "errors": {
+    "invalid": "Invalid",
+    "duplicate_field_value": "Duplicate field value:",
+    "use_another_value": "Please use another value!",
+    "invalid_input_data": "Invalid input data.",
+    "invalid_token": "Invalid token. Please log in again!",
+    "token_expired": "Your token has expired! Please log in again!",
+    "something_wrong": "Something went very wrong!",
+    "get_access_to_logged": "Your are not logged in! Please log in to get access.",
+    "token_does_not_exist": "The user belonging to this token does not exist.",
+    "user_recently_changed_password": "User recently changed password! Please log in again.",
+    "incorrect_email_or_password": "Email Address or Password is invalid",
+    "error_sending_the_email": "There was an error sending the email. Try again later!",
+    "token_invalid_or_expired": "Token is invalid or has expired",
+    "no_document_found": "No document found with this ID",
+    "do_not_permission_perform_action": "You do not have permission to perform this action",
+    "upload_only_images": "Not an image! Please upload only images.",
+    "upload_only_pdf": "Not a PDF! Please upload only a pdf file.",
+    "can_not_add_own_campaign": "You can not Add Own Campaign in Saved Campaigns",
+    "token_invalid": "Token is invalid",
+    "email_not_verified": "Your account is not Active. Please check your inbox and click on Activation Link.",
+    "account_is_suspended": "Registered Email is Suspended",
+    "payout_request_not_allowed": "Payout Request is not allowed",
+    "image_not_uploaded": "Image is not Uploaded! Please upload image.",
+    "account_already_active": "User Account is already Active.",
+    "email_address_not_found": "Email Address Not Found.",
+    "documents_not_updated": "Documents not Updated.",
+    "some_documents_not_deleted": "Some of the Documents are not Deleted.",
+    "all_documents_not_deleted": "Not a Single Document is Deleted.",
+    "two_factor_code_expired": "Verification code is invalid / expired.",
+    "max_limit_reached_creating_campaign": "You've reached the maximum number of campaign creation limit ({MAX_CAMPAIGN_LIMIT}).",
+    "default_payment_gateway_can_not_be_deactivated": "Default Payment Gateway can not be deactivated",
+    "default_payment_gateway_can_not_be_deleted": "Default Payment Gateway can not be deleted"
+  },
+  "common": {
+    "fail": "fail",
+    "success": "success",
+    "required_email_address": "Please enter email address.",
+    "invalid_email_address": "Please enter a valid email address.",
+    "email_exists_already": "E-mail already exists, please use a different one.",
+    "required_password": "Please enter password.",
+    "required_password_min_characters": "Password at least 8 characters.",
+    "password_only_number_and_text": "Please enter a password with only number and text.",
+    "required_confirm_password": "Please enter confirm password.",
+    "confirm_password_not_match": "Password confirmation does not match password.",
+    "no_user_with_email_address": "There is no user with email address.",
+    "password_reset_link_sent": "Password Reset link has been sent successfully",
+    "current_password_is_wrong": "Your current password is wrong.",
+    "account_activation_link_sent": "You have signed up successfully. Your account details sent to your email address.",
+    "account_activation_link_resent": "Email verification link has been resent to your email successfully.",
+    "test_email_sent_successfully": "Test Email Sent Successfully.",
+    "test_email_not_sent": "Test Email not Sent. Please try again.",
+    "data_cleaned_successfully": "Data cleaned Successfully."
+  },
+  "signUp": {
+    "first_name_only_alphabetic": "First name must be alphabetic.",
+    "first_name_min_characters": "First name must have more than or equal to 3 characters.",
+    "first_name_max_characters": "First name must have less than or equal to 40 characters.",
+    "last_name_only_alphabetic": "Last name must be alphabetic.",
+    "last_name_min_characters": "Last name must have more than or equal to 3 characters.",
+    "last_name_max_characters": "Last name must have less than or equal to 40 characters."
+  },
+  "users": {
+    "not_an_image": "Not an image! Please upload only image",
+    "this_route_is_not_for_password_updates": "This route is not for password updates. Please use /updateMyPassword",
+    "please_enter_valid_email_address": "Please enter valid Email address",
+    "newsletter_subscribed_successfully": "Newsletter subscribed successfully.",
+    "email_already_subscribed": "Email is already subscribed.",
+    "this_email_id_is_not_valid": "This Email-ID is Not Valid."
+  },
+  "roles": {
+    "name_only_alphabetic": "Name must be alphabetic.",
+    "name_min_characters": "Name must have more than or equal to 3 characters.",
+    "name_max_characters": "Name must have less than or equal to 20 characters.",
+    "role_name_exists_already": "Role exists already, please choose a different one."
+  },
+  "adminLogin": {
+    "admin_required_email_address": "Please enter admin email address.",
+    "admin_invalid_email_address": "Please enter a valid admin email address.",
+    "admin_required_password": "Please enter admin password.",
+    "admin_required_password_min_characters": "Admin password at least 8 characters.",
+    "admin_password_only_number_and_text": "Please enter a admin password with only number and text."
+  },
+  "admins": {
+    "admins_first_name_only_alphabetic": "Admin first name must be alphabetic.",
+    "admins_first_name_min_characters": "Admin first name must have more than or equal to 3 characters.",
+    "admins_first_name_max_characters": "Admin first name must have less than or equal to 40 characters.",
+    "admins_last_name_only_alphabetic": "Admin last name must be alphabetic.",
+    "admins_last_name_min_characters": "Admin last name must have more than or equal to 3 characters.",
+    "admins_last_name_max_characters": "Admin last name must have less than or equal to 40 characters.",
+    "admins_required_email_address": "Please enter admin email address.",
+    "admins_invalid_email_address": "Please enter a valid admin email address.",
+    "admins_email_exists_already": "Admin email exists already, please use a different one.",
+    "admins_required_password": "Please enter admin password.",
+    "admins_required_password_min_characters": "Admin password at least 8 characters.",
+    "admins_password_only_number_and_text": "Please enter a admin password with only number and text.",
+    "admins_required_confirm_password": "Please enter admin confirm password.",
+    "admins_confirm_password_not_match": "Admin password confirmation does not match password.",
+    "admins_inactive_account": "Unable to login! Account is inactive."
+  },
+  "types": {
+    "type_name_only_alphabetic": "Name must be alphabetic.",
+    "type_name_min_characters": "Name must have more than or equal to 3 characters.",
+    "type_name_max_characters": "Name must have less than or equal to 40 characters.",
+    "required_type_description": "Please enter description.",
+    "required_type_typeIcon": "Please enter type icon."
+  },
+  "campaignType": {
+    "required_campaign_type": "Please select at least one campaign type option."
+  },
+  "companyInfo": {
+    "required_company_name": "Please enter company name.",
+    "company_name_only_alphabetic": "Company name must be alphabetic.",
+    "required_company_logo": "Please enter company logo.",
+    "required_company_year_founded": "Please enter company year founded.",
+    "required_company_email_address": "Please enter company email address.",
+    "invalid_company_email_address": "Please enter a valid company email address."
+  },
+  "teamMembers": {
+    "team_member_name_only_alphabetic": "Full name must be alphabetic.",
+    "team_member_name_min_characters": "Full name must have more than or equal to 3 characters.",
+    "team_member_name_max_characters": "Full name must have less than or equal to 40 characters.",
+    "team_member_role_only_alphabetic": "Role must be alphabetic.",
+    "team_member_role_min_characters": "Role must have more than or equal to 3 characters.",
+    "team_member_role_max_characters": "Role must have less than or equal to 40 characters.",
+    "required_team_member_bio": "Please enter bio.",
+    "email_already_added_as_team_member": "Email is already added as Team Member"
+  },
+  "leadInvestors": {
+    "lead_investor_name_only_alphabetic": "Investor name must be alphabetic.",
+    "lead_investor_name_min_characters": "Investor name must have more than or equal to 3 characters.",
+    "lead_investor_name_max_characters": "Investor name must have less than or equal to 40 characters.",
+    "required_lead_investor_bio": "Please enter bio.",
+    "required_lead_investor_type": "Please select Investor Type."
+  },
+  "fundraisingDetail": {
+    "required_fundraising_detail_goal": "Please enter fundraising goal.",
+    "fundraising_detail_goal_only_numeric": "Fundraising goal with only numeric.",
+    "required_fundraising_detail_closing_date": "Please select closing date",
+    "required_fundraising_detail_minimum_raise": "Please enter minimum raise.",
+    "fundraising_detail_minimum_raise_only_numeric": "Minimum raise with only numeric.",
+    "minimum_raise_less_then_maximum_raise": "Minimum raise should be below maximum raise",
+    "required_fundraising_detail_maximum_raise": "Please enter maximum raise.",
+    "fundraising_detail_maximum_raise_only_numeric": "Maximum raise with only numeric.",
+    "maximum_raise_greater_then_minimum_raise": "Maximum raise should be above minimum raise"
+  },
+  "categories": {
+    "category_name_only_alphabetic": "Category name must be alphabetic.",
+    "category_name_min_characters": "Category name must have more than or equal to 3 characters.",
+    "category_name_max_characters": "Category name must have less than or equal to 40 characters.",
+    "category_slug_exists_already": "Category slug exists already, please use a different one.",
+    "category_name_exists_already": "Category name exists already, please use a different one.",
+    "required_category_description": "Please enter description."
+  },
+  "dropdowns": {
+    "dropdown_name_only_alphabetic": "Name must be alphabetic.",
+    "dropdown_name_min_characters": "Name must have more than or equal to 3 characters.",
+    "dropdown_name_max_characters": "Name must have less than or equal to 40 characters.",
+    "dropdown_name_exists_already": "Name exists already, please use a different one."
+  },
+  "languages": {
+    "language_name_only_alphabetic": "Name must be alphabetic.",
+    "language_name_min_characters": "Name must have more than or equal to 3 characters.",
+    "language_name_max_characters": "Name must have less than or equal to 40 characters.",
+    "language_name_exists_already": "Name exists already, please use a different one.",
+    "required_language_folder": "Please enter folder name.",
+    "required_language_iosTwo": "Please enter IOS 2.",
+    "required_language_iosThree": "Please enter IOS 3."
+  },
+  "sliders": {
+    "required_slider_title": "Please enter title."
+  },
+  "currency": {
+    "required_currency_name": "Please enter currency name.",
+    "required_currency_code": "Please enter currency code.",
+    "currency_code_exists_already": "Currency code exists already, please use a different one.",
+    "required_currency_symbol": "Please enter currency symbol."
+  },
+  "siteSetting": {
+    "required_site_setting_name": "Please enter site name."
+  },
+  "campaignSeting": {
+    "required_maximum_campaigns_limit": "Please enter maximum campaigns limit.",
+    "required_campaign_ending_soon_days": "Please enter campaign ending soon days."
+  },
+  "faqs": {
+    "required_faqs_question": "Please enter question.",
+    "required_faqs_answer": "Please enter answer."
+  },
+  "contentPages": {
+    "required_page_title": "Please enter title.",
+    "page_name_exists_already": "Title exists already, please use a different one.",
+    "required_page_description": "Please enter description."
+  },
+  "helpCenter": {
+    "help_center_title_min_characters": "The title must have more than or equal to 3 characters.",
+    "help_center_title_max_characters": "The title must have less than or equal to 40 characters.",
+    "help_center_title_only_alphabetic": "The title must be alphabetic.",
+    "required_help_center_description": "Please enter description.",
+    "required_help_center_category": "Please select the help category."
+  },
+  "dealType": {
+    "deal_type_name_min_characters": "Name must have more than or equal to 3 characters.",
+    "deal_type_name_max_characters": "Name must have less than or equal to 40 characters.",
+    "deal_type_name_only_alphabetic": "Name must be alphabetic.",
+    "deal_type_name_exists_already": "Name exists already, please pick a different one.",
+    "required_deal_type_description": "Please enter a description."
+  },
+  "campaignCategory": {
+    "campaign_category_name_min_characters": "Name must have more than or equal to 3 characters.",
+    "campaign_category_name_max_characters": "Name must have less than or equal to 40 characters.",
+    "campaign_category_name_only_alphabetic": "Name must be alphabetic.",
+    "campaign_category_name_exists_already": "Name exists already, please pick a different one.",
+    "required_campaign_category_description": "Please enter a description."
+  },
+  "investorTaxRelief": {
+    "investor_tax_relief_name_min_characters": "Investor tax relief type must have more or equal than 3 characters.",
+    "investor_tax_relief_name_max_characters": "Investor tax relief type must have less or equal than 40 characters.",
+    "investor_tax_relief_name_only_alphabetic": "Investor tax relief type must be alphabetic.",
+    "investor_tax_relief_name_exists_already": "Investor tax relief type exists already, please pick a different one.",
+    "required_investor_tax_relief_description": "Please enter a description."
+  },
+  "achPayment": {
+    "account_connected_successfully": "Account Connected Successfully.",
+    "repayment_term_length_completed": "Repayment Term length completed.",
+    "transaction_token_invalid_expired": "Transaction Token invalid / expired. Please try again.",
+    "bank_account_token_invalid_expired": "Bank Account Token invalid / expired. Please try again."
+  },
+  "months": {
+    "january": "January",
+    "february": "February",
+    "march": "March",
+    "april": "April",
+    "may": "May",
+    "june": "June",
+    "july": "July",
+    "august": "August",
+    "september": "September",
+    "october": "October",
+    "november": "November",
+    "december": "December"
+  }
+}
